@@ -1,7 +1,6 @@
 import "./QuizSettings.css";
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import Api from "./Api.js";
 
 export default function QuizSettings(props) {
   const navigate = useNavigate();
