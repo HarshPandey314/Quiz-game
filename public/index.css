@@ -1,0 +1,9 @@
+html{  
+        /* border:2px solid black; */
+        background: url(./images/back-image3.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height:100%;
+}
+

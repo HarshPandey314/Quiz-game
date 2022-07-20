@@ -1,0 +1,43 @@
+.questionBox{
+    margin: 4px ;
+    border:1px solid white;
+    text-align: center;
+    color:white;
+}
+.number{
+    margin: 5px 0px;
+    font-size: 25px;
+    font-weight: 500;
+}
+#question{
+    margin: 4px 0px 10px 0px;
+    font-size: 20px;
+}
+.options{
+    background-color: grey;
+    margin: 4px 21vw;
+    height: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.option-box{
+    text-align: center;
+}
+
+.select{
+    background-color: greenyellow;
+}
+.wrong{
+    background-color: red;
+}
+@media screen and (max-width:800px){
+    .options{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        /* margin: 4px 18vw 4px 18vw ; */
+        height:60px;
+        width: 55vw;
+
+    }
+}

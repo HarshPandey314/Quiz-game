@@ -1,0 +1,13 @@
+.quizImage{
+    display: flex;
+    justify-content: center;
+}
+.quizImage img{
+    width: 19vw;
+    /* height: 8vh; */
+}
+@media screen and (max-width:600px){
+    .quizImage img{
+        width: 32vw;
+    }
+}

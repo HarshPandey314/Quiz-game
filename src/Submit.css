@@ -1,0 +1,35 @@
+*{
+    margin:0;
+}
+.submit{
+    margin-top: 50px;
+    color:white;
+    text-align: center;
+}
+.con{
+    margin: 10px 0px;
+    font-size:26px;
+    font-weight: 450;
+}
+.score{
+    margin: 10px 0px;
+    font-size: 37px;
+    font-weight: 500;
+}
+.new{
+    margin: 20px 0px;
+}
+.new a{
+    border:1px solid white;
+    padding: 5px;
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    font-weight:500;
+    background-color:black;
+    border-radius: 6px;
+}
+.new a:hover{
+    background-color: white;
+    color:black;
+}

@@ -1,0 +1,13 @@
+.header{
+    /* border:2px solid white; */
+    display:flex;
+    justify-content: center;
+    color:white;
+    font-size: 35px;
+    margin: 12px 0px;
+}
+@media screen and (max-width:500px) {
+    .header{
+        font-size: 31px;
+    }
+}

@@ -1,0 +1,32 @@
+.questionPage{
+    margin-top: 50px;
+    /* text-align: center; */
+}
+.welcome{
+    display:flex;
+    justify-content: center;
+    color:white;
+    margin: 5px 0;
+    
+    /* border: 1px solid grey; */
+    /* width: 150px; */
+}
+.welcome div{
+    border:0.2vw solid grey;
+    font-size: 1.2rem;
+}
+.topicScore{
+    display:flex;
+    justify-content: space-between;
+    color:white;
+    padding: 2px 3vw;
+    font-size: 21px;
+}
+@media screen and (max-width : 600px) {
+    .topicScore{
+        font-size: 17px;
+    }
+    
+}
+
+.topic{}
